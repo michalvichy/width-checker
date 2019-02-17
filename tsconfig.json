@@ -10,9 +10,9 @@
     "sourceMap": true,
     "target": "es6",
     "strict": true,
-    "allowJs": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "declaration": true
   },
-  "include": ["./src/**/**/*.ts", "./src/**/**/*.tsx"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
