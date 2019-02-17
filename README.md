@@ -3,19 +3,19 @@
 ### Instalation
 
 ```
-yarn add width-checker
+yarn add react-width-checker
 ```
 
 or
 
 ```
-npm install width-checker
+npm install react-width-checker
 ```
 
 ### Usage
 
 ```js
-import { WidthChecker } from 'width-checker
+import { WidthChecker } from 'react-width-checker
 ```
 
 ```js
