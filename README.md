@@ -15,7 +15,7 @@ npm install react-width-checker
 ### Usage
 
 ```js
-import { WidthChecker } from 'react-width-checker
+import { WidthChecker } from 'react-width-checker';
 ```
 
 ```js
