@@ -1,12 +1,20 @@
 {
-  "name": "width-checker",
-  "version": "1.0.4",
-  "description": "Window width checker.",
-  "main": "src/index.ts",
+  "name": "react-width-checker",
+  "version": "1.0.9",
+  "description": "React window width checker with ssr support.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/michalvichy/width-checker",
   "author": "Michal Skora <mchlskora@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "react",
+    "width checker",
+    "debounce",
+    "rwd",
+    "ssr"
+  ],
   "scripts": {
     "build": "rm -rf ./lib && tsc",
     "prepare": "yarn build"

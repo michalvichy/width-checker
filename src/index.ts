@@ -1,1 +1,3 @@
-export * from './WidthChecker';
+import { WidthChecker } from './WidthChecker';
+
+export { WidthChecker };
