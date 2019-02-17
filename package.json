@@ -1,8 +1,8 @@
 {
   "name": "width-checker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Window width checker.",
-  "main": "src/WidthChecker.tsx",
+  "main": "src/index.ts",
   "repository": "https://github.com/michalvichy/width-checker",
   "author": "Michal Skora <mchlskora@gmail.com>",
   "license": "MIT",
