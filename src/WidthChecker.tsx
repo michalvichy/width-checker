@@ -3,20 +3,10 @@ import * as React from 'react';
 import { debounce, inRange } from 'lodash';
 import { canUseDOM } from './utils/canUseDom';
 
-interface Props {
-  children: (x: { display: boolean }) => React.ReactNode;
-  wait: number;
-  widthBelow: number;
-  widthUp: number;
-  ssr?: boolean;
-}
+import { WidthCheckerProps, WidthCheckerState } from './models';
 
-interface State {
-  display: boolean;
-}
-
-export class WidthChecker extends React.PureComponent<Props, State> {
-  public static defaultProps: Pick<Props, 'wait'> = { wait: 200 };
+export class WidthChecker extends React.PureComponent<WidthCheckerProps, WidthCheckerState> {
+  public static defaultProps: Pick<WidthCheckerProps, 'wait'> = { wait: 200 };
 
   private condition = (): boolean => {
     if (canUseDOM()) {
