@@ -1,6 +1,6 @@
 {
   "name": "react-width-checker",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "React window width checker with ssr support.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,8 +24,8 @@
     "react": "^16.10.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.121",
-    "@types/react": "^16.8.3",
-    "typescript": "^3.3.3"
+    "@types/lodash": "^4.14.141",
+    "@types/react": "^16.9.3",
+    "typescript": "^3.6.3"
   }
 }
